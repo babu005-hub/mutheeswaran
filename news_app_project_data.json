@@ -1,0 +1,123 @@
+{
+  "project_name": "News Feed Application",
+  "phases": [
+    {
+      "phase": "Phase 1: Problem Understanding & Requirements",
+      "deadline": "Week 7",
+      "deliverables": [
+        "Problem Statement",
+        "Users & Stakeholders",
+        "User Stories",
+        "MVP Features",
+        "Wireframes / API Endpoint List",
+        "Acceptance Criteria"
+      ]
+    },
+    {
+      "phase": "Phase 2: Solution Design & Architecture",
+      "deadline": "Week 7",
+      "deliverables": [
+        "Tech Stack Selection",
+        "UI Structure / API Schema Design",
+        "Data Handling Approach",
+        "Component / Module Diagram",
+        "Basic Flow Diagram"
+      ]
+    },
+    {
+      "phase": "Phase 3: MVP Implementation",
+      "deadline": "Week 8",
+      "deliverables": [
+        "Project Setup",
+        "Core Features Implementation",
+        "Data Storage (Local State / Database)",
+        "Testing Core Features",
+        "Version Control (GitHub)"
+      ]
+    },
+    {
+      "phase": "Phase 4: Enhancements & Deployment",
+      "deadline": "Week 9",
+      "deliverables": [
+        "Additional Features",
+        "UI/UX Improvements",
+        "API Enhancements",
+        "Performance & Security Checks",
+        "Testing of Enhancements",
+        "Deployment (Netlify, Vercel, or Cloud Platform)"
+      ]
+    },
+    {
+      "phase": "Phase 5: Project Demonstration & Documentation",
+      "deadline": "Week 10",
+      "deliverables": [
+        "Final Demo Walkthrough",
+        "Project Report",
+        "Screenshots / API Documentation",
+        "Challenges & Solutions",
+        "GitHub README & Setup Guide",
+        "Final Submission (Repo + Deployed Link)"
+      ]
+    }
+  ],
+  "tech_stack": {
+    "frontend": {
+      "framework": "React.js",
+      "routing": "React Router DOM",
+      "styling": "CSS3 + Bootstrap",
+      "http_client": "Axios",
+      "state_management": "React Context"
+    },
+    "backend": {
+      "runtime": "Node.js",
+      "framework": "Express.js",
+      "database": "MongoDB",
+      "authentication": "JWT",
+      "cors": "CORS middleware"
+    },
+    "external_apis": {
+      "news_source": "NewsAPI.org",
+      "backup_api": "Guardian API"
+    },
+    "testing": {
+      "unit_testing": "Jest",
+      "react_testing": "React Testing Library",
+      "integration": "Supertest"
+    },
+    "deployment": {
+      "frontend": "Netlify/Vercel",
+      "backend": "Heroku/Railway",
+      "database": "MongoDB Atlas"
+    }
+  },
+  "features": {
+    "core_features": [
+      "News Feed Display",
+      "Category Navigation (Technology, Sports, Business, Health, Science, Entertainment)",
+      "Search Functionality",
+      "Article Detail View",
+      "Responsive Design"
+    ],
+    "advanced_features": [
+      "Breaking News Carousel",
+      "Infinite Scroll",
+      "Social Media Sharing",
+      "Bookmarking Articles",
+      "Dark Mode Toggle",
+      "Offline Reading"
+    ]
+  },
+  "api_endpoints": {
+    "news_api": [
+      "GET /v2/top-headlines - Breaking news",
+      "GET /v2/everything - Search articles",
+      "GET /v2/sources - News sources"
+    ],
+    "backend_api": [
+      "GET /api/news - Fetch categorized news",
+      "GET /api/news/search?q={query} - Search news",
+      "GET /api/news/category/{category} - Category-specific news",
+      "GET /api/news/{id} - Single article details"
+    ]
+  }
+}
